@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				304840BA27D5387B00CF4B1D /* DrinkWaveApp.swift */,
-				304840CB27D54A0500CF4B1D /* Component */,
+				304840CB27D54A0500CF4B1D /* Shape */,
 				304840C827D538CF00CF4B1D /* View */,
 				304840BE27D5387C00CF4B1D /* Assets.xcassets */,
 				304840C027D5387C00CF4B1D /* Preview Content */,
@@ -78,12 +78,12 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		304840CB27D54A0500CF4B1D /* Component */ = {
+		304840CB27D54A0500CF4B1D /* Shape */ = {
 			isa = PBXGroup;
 			children = (
 				304840CC27D54A2200CF4B1D /* WaterWave.swift */,
 			);
-			path = Component;
+			path = Shape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
