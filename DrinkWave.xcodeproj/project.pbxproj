@@ -11,6 +11,7 @@
 		304840BD27D5387B00CF4B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304840BC27D5387B00CF4B1D /* ContentView.swift */; };
 		304840BF27D5387C00CF4B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304840BE27D5387C00CF4B1D /* Assets.xcassets */; };
 		304840C227D5387C00CF4B1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304840C127D5387C00CF4B1D /* Preview Assets.xcassets */; };
+		304840CD27D54A2200CF4B1D /* WaterWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304840CC27D54A2200CF4B1D /* WaterWave.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		304840BC27D5387B00CF4B1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		304840BE27D5387C00CF4B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		304840C127D5387C00CF4B1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		304840CC27D54A2200CF4B1D /* WaterWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWave.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				304840BA27D5387B00CF4B1D /* DrinkWaveApp.swift */,
-				304840BC27D5387B00CF4B1D /* ContentView.swift */,
+				304840CB27D54A0500CF4B1D /* Component */,
+				304840C827D538CF00CF4B1D /* View */,
 				304840BE27D5387C00CF4B1D /* Assets.xcassets */,
 				304840C027D5387C00CF4B1D /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				304840C127D5387C00CF4B1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		304840C827D538CF00CF4B1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				304840BC27D5387B00CF4B1D /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		304840CB27D54A0500CF4B1D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				304840CC27D54A2200CF4B1D /* WaterWave.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304840CD27D54A2200CF4B1D /* WaterWave.swift in Sources */,
 				304840BD27D5387B00CF4B1D /* ContentView.swift in Sources */,
 				304840BB27D5387B00CF4B1D /* DrinkWaveApp.swift in Sources */,
 			);
