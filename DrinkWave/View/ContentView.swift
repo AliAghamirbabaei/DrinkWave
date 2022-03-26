@@ -10,8 +10,8 @@ import SwiftUI
 import SwiftUI
 
 struct ContentView: View {
-    @State var progress: CGFloat = 0.5
-    @State var startAnimation: CGFloat = 0
+    @State var progress: CGFloat = 0.6
+    @State var startAnimation: CGFloat = 0.5
     @State var waveHeight: CGFloat = 0.1
     
     var body: some View {
@@ -24,14 +24,8 @@ struct ContentView: View {
                     
                     //MARK: Water drop
                     ZStack {
-                        Image(systemName: "drop.fill")
-                            .resizable()
-                            .renderingMode(.template)
-                            .aspectRatio(contentMode: .fit)
-                            .foregroundColor(.white)
-                            .scaleEffect(x: 1.1, y: 1)
-                            .offset(y: -1)
-                        
+                        PartyCup()
+
                         // Wave Form Shape
                         WaterWave(progress: progress, waveHeight: waveHeight, offset: startAnimation)
                             .fill(.blue)
@@ -70,8 +64,7 @@ struct ContentView: View {
                                 }
                             })
                             .mask{
-                                Image(systemName: "drop.fill")
-                                    .resizable()
+                                PartyCup()
                                     .aspectRatio(contentMode: .fit)
                                     .padding(20)
                             }
