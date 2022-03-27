@@ -14,7 +14,7 @@
 		304840CD27D54A2200CF4B1D /* WaterWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304840CC27D54A2200CF4B1D /* WaterWave.swift */; };
 		30C7C5A527F0855B00E133F4 /* TopCupShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C7C5A427F0855B00E133F4 /* TopCupShape.swift */; };
 		30D61CE127EFAE2600D6457B /* CupShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D61CE027EFAE2600D6457B /* CupShape.swift */; };
-		30D61CE327EFB13500D6457B /* PartyCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D61CE227EFB13500D6457B /* PartyCup.swift */; };
+		30D61CE327EFB13500D6457B /* RedPartyCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D61CE227EFB13500D6457B /* RedPartyCup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		304840CC27D54A2200CF4B1D /* WaterWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWave.swift; sourceTree = "<group>"; };
 		30C7C5A427F0855B00E133F4 /* TopCupShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCupShape.swift; sourceTree = "<group>"; };
 		30D61CE027EFAE2600D6457B /* CupShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupShape.swift; sourceTree = "<group>"; };
-		30D61CE227EFB13500D6457B /* PartyCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyCup.swift; sourceTree = "<group>"; };
+		30D61CE227EFB13500D6457B /* RedPartyCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedPartyCup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				304840BC27D5387B00CF4B1D /* ContentView.swift */,
-				30D61CE227EFB13500D6457B /* PartyCup.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +98,7 @@
 			children = (
 				30D61CE027EFAE2600D6457B /* CupShape.swift */,
 				30C7C5A427F0855B00E133F4 /* TopCupShape.swift */,
+				30D61CE227EFB13500D6457B /* RedPartyCup.swift */,
 			);
 			path = PartyCup;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 				30D61CE127EFAE2600D6457B /* CupShape.swift in Sources */,
 				304840BB27D5387B00CF4B1D /* DrinkWaveApp.swift in Sources */,
 				30C7C5A527F0855B00E133F4 /* TopCupShape.swift in Sources */,
-				30D61CE327EFB13500D6457B /* PartyCup.swift in Sources */,
+				30D61CE327EFB13500D6457B /* RedPartyCup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
