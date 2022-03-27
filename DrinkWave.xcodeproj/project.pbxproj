@@ -80,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				304840BC27D5387B00CF4B1D /* ContentView.swift */,
+				30D61CE227EFB13500D6457B /* RedPartyCup.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,7 +99,6 @@
 			children = (
 				30D61CE027EFAE2600D6457B /* CupShape.swift */,
 				30C7C5A427F0855B00E133F4 /* TopCupShape.swift */,
-				30D61CE227EFB13500D6457B /* RedPartyCup.swift */,
 			);
 			path = PartyCup;
 			sourceTree = "<group>";
