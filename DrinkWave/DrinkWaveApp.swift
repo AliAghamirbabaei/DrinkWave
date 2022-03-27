@@ -12,6 +12,7 @@ struct DrinkWaveApp: App {
     var body: some Scene {
         WindowGroup {
             RedPartyCup()
+                .environmentObject(CupViewModel())
         }
     }
 }
