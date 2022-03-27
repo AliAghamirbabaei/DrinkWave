@@ -9,8 +9,20 @@ import SwiftUI
 
 struct PartyCup: View {
     var body: some View {
-        CupShape()
-            .foregroundColor(.red)
+        ZStack {
+            Color.gray
+            CupShape()
+                .stroke(Color("darkRed"), lineWidth: 4)
+                .background(
+                    CupShape()
+                        .fill(.red)
+                )
+            
+            TopCupShape()
+                .foregroundColor(.white)
+                .padding(.bottom, -4)
+        }
+        .ignoresSafeArea(.all)
     }
 }
 struct PartyCup_Previews: PreviewProvider {
