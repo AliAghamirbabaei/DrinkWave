@@ -11,7 +11,7 @@ struct DrinkInCup: View {
     @EnvironmentObject var viewModel: CupViewModel
     @State var startAnimation: CGFloat = 0
     @State var waveHeight: CGFloat = 0.04
-    
+
     var body: some View {
         VStack {
             GeometryReader {proxy in
@@ -37,6 +37,7 @@ struct DrinkInCup: View {
                                         .offset(x: 10, y: -20)
                                         .transition(.opacity)
                                 }
+
                                 if viewModel.showBubble2 {
                                     Circle()
                                         .fill(.white.opacity(0.1))
@@ -50,6 +51,7 @@ struct DrinkInCup: View {
                                         .offset(x: 25, y: 70)
                                         .transition(.opacity)
                                 }
+
                                 if viewModel.showBubble {
                                     Circle()
                                         .fill(.white.opacity(0.1))
@@ -57,6 +59,7 @@ struct DrinkInCup: View {
                                         .offset(x: -20, y: +57)
                                         .transition(.opacity)
                                 }
+
                                 if viewModel.showBubble3 {
                                     Circle()
                                         .fill(.white.opacity(0.1))
@@ -71,7 +74,6 @@ struct DrinkInCup: View {
                                 .aspectRatio(contentMode: .fit)
                                 .padding()
                         }
-                    
                 }
                 .frame(width: size.width, height: size.height, alignment: .center)
                 .onAppear {
