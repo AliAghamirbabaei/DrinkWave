@@ -15,8 +15,6 @@ class CupViewModel: ObservableObject {
     @Published public var showBubble1: Bool = false
     @Published public var showBubble2: Bool = false
     @Published public var showBubble3: Bool = false
-    
-    
     private var timer = Timer()
     
     public func startAnimation() {

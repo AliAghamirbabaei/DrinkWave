@@ -43,6 +43,6 @@ struct WaterWave: Shape {
 
 struct WaterWave_Previews: PreviewProvider {
     static var previews: some View {
-        WaterWave(progress: 0.5, waveHeight: 0.5, offset: 0.1)
+        WaterWave(progress: 0.5, waveHeight: 0.1, offset: 0.1)
     }
 }

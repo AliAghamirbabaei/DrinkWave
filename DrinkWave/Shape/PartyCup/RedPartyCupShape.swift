@@ -12,11 +12,8 @@ struct RedPartyCupShape: View {
         ZStack {
             CupShape()
                 .stroke(Color("darkRed"), lineWidth: 4)
-                .background(
-                    CupShape()
-                        .fill(.red)
-                )
-            
+                .background(CupShape().fill(.red))
+
             Group {
                 Rectangle()
                     .foregroundColor(Color("darkRed"))

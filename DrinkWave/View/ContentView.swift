@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct ContentView: View {
     @State var progress: CGFloat = 0.5
     @State var startAnimation: CGFloat = 0

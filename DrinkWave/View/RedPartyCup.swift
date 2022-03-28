@@ -12,9 +12,8 @@ struct RedPartyCup: View {
     
     var body: some View {
         ZStack {
-            // Color(#colorLiteral(red: 0.4352941176, green: 0.5607843137, blue: 0.9176470588, alpha: 1))
             Color.black
-            
+
             if viewModel.showCup {
                 RedPartyCupShape()
                     .transition(.opacity)
