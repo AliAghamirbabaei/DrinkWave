@@ -1,2 +1,2 @@
 # DrinkWave
-Water wave animation
+Water wave animation with red party cup animation
